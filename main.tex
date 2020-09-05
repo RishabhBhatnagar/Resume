@@ -1,0 +1,69 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{anysize}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=0.5in, right=0.5in, top=0.5in, bottom=0.5in, includefoot, headheight=13.6pt]{geometry}
+\usepackage{color,graphicx}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{latexsym}
+\usepackage{mdwlist}
+\usepackage{tabularx}
+\usepackage{romannum}
+
+
+
+\hypersetup{
+    bookmarks=true,
+    unicode=false,          % non-Latin characters in Acrobat's bookmarks
+    pdftoolbar=true,
+    pdfmenubar=true,
+    pdffitwindow=true,
+    pdftitle={CV - Rishabh},    % title
+    pdfauthor={RishabhBhatnagar},     % author
+    pdfsubject={resume},   % subject of the document
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=magenta,        % color of internal links
+    citecolor=blue,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+
+% Margins
+
+\addtolength{\oddsidemargin}{-0.215in}
+\addtolength{\textwidth}{0.2in}
+
+\definecolor{titleColor}{rgb}{0.85, 0.85, 0.85}
+
+\begin{document}
+
+\input{header}
+
+\input{experience}
+
+\input{education}
+
+\input{areas_of_interest}
+
+\input{technical_proficiency}\\\\
+
+\input{projects}
+
+\input{scholastic_achievement}
+
+\input{positions_of_responsibility}
+
+\input{extra_curricular}
+
+% \colorbox{titleColor}{\parbox{6.7in}{\textbf{Hobbies and Interests}}}
+
+% \begin{itemize}
+%   \setlength{\itemsep}{1pt}
+%   \item Writing python codes, Dismantling electronic devices, Gardening.
+% \end{itemize}
+% \textit{Updated on 13th June 2020}
+
+\end{document}
